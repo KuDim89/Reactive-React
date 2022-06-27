@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import AppBars from "./components/AppBar/AppBar";
 
 function App() {
   return (
-    <h1>Cleared React App</h1>
+    <>
+      <AppBars/>
+      <h1>Cleared React App</h1>
+    </>
   );
 }
 
